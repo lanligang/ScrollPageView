@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
 
-  s.source       = { :git => "https://github.com/lanligang/ScrollPageView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lanligang/ScrollPageView", :tag => "#{s.version}" }
 
 
-  s.source_files  =  'ScrollPageView/**/*.{h,m}'
+  s.source_files  =  'ScrollPageView/*.{h,m}'
 
   s.framework  = "UIKit"
   
